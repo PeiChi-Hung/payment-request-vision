@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "payment-vision"
+version = "0.1.0"
+description = ""
+authors = ["Patty Hung"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pillow = "^11.0.0"
+requests = "^2.32.3"
+transformers = "^4.47.1"
+opencv-python-headless = "^4.10.0.84"
+torch = "^2.5.1"
+sentencepiece = "^0.2.0"
+protobuf = "^5.29.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
